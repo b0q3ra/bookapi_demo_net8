@@ -1,6 +1,8 @@
 namespace BooksApi.Services
 {
     public class FileLogger : ILogger {
+
+        //log directory and file path
         string logDirectory;
         string logPath;
 

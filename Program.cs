@@ -16,7 +16,7 @@ builder.Services.AddDbContext<DataContext>(opts => {//BUILD DB SERVICE
     opts.EnableSensitiveDataLogging();
 });
 
-// Add custom DI Services
+// Add custom DI Services. Class is initialized once and only once
 builder.Services.AddSingleton<BooksApi.Services.ILogger, FileLogger>();
 
 var app = builder.Build();
