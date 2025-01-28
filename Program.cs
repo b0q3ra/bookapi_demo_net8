@@ -17,7 +17,7 @@ builder.Services.AddDbContext<DataContext>(opts => {//BUILD DB SERVICE
 });
 
 // Add custom DI Services
-builder.Services.AddScoped<BooksApi.Services.ILogger, FileLogger>();
+builder.Services.AddSingleton<BooksApi.Services.ILogger, FileLogger>();
 
 var app = builder.Build();
 

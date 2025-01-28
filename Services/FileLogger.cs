@@ -15,11 +15,11 @@ namespace BooksApi.Services
          }
 
         public void Info(String source) {
-            File.WriteAllText(logPath, $"{DateTime.Now:yyyyMMdd_HHmmss} Info: {source}");
+            File.AppendAllText(logPath, $"{DateTime.Now:yyyyMMdd_HHmmss} Info: {source} \n");
         }
 
         public void Error(String source) {
-            File.WriteAllText(logPath, $"{DateTime.Now:yyyyMMdd_HHmmss} Error: {source}");
+            File.AppendAllText(logPath, $"{DateTime.Now:yyyyMMdd_HHmmss} Error: {source} \n");
         }
     }
 }
