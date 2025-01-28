@@ -153,3 +153,8 @@ C:\Users\sergi.boquera\Desktop\workspace\dotnet\aspnet\BookRepoDemo\obj\Debug\ne
 C:\Users\sergi.boquera\Desktop\workspace\dotnet\aspnet\BookRepoDemo\obj\Debug\net8.0\BookRepo.EFE428B6.Up2Date
 C:\Users\sergi.boquera\Desktop\workspace\dotnet\aspnet\BookRepoDemo\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\sergi.boquera\Desktop\workspace\dotnet\aspnet\BookRepoDemo\bin\Debug\net8.0\Serilog.dll
+C:\Users\sergi.boquera\Desktop\workspace\dotnet\aspnet\BookRepoDemo\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\sergi.boquera\Desktop\workspace\dotnet\aspnet\BookRepoDemo\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\sergi.boquera\Desktop\workspace\dotnet\aspnet\BookRepoDemo\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\sergi.boquera\Desktop\workspace\dotnet\aspnet\BookRepoDemo\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\sergi.boquera\Desktop\workspace\dotnet\aspnet\BookRepoDemo\bin\Debug\net8.0\Serilog.Sinks.File.dll
